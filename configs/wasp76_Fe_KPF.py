@@ -14,7 +14,7 @@ import pickle
 import smplotlib
 from PyAstronomy import pyasl
 #Other Modules:
-sys.path.append('../redexo')
+sys.path.append('../../redexo')
 ##### Author: Alex Polanski #####
 
 from redexo import *
