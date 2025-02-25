@@ -11,7 +11,6 @@ from astropy import units as u
 from astropy.io import fits
 from astropy import convolution
 import pickle
-import smplotlib
 from PyAstronomy import pyasl
 #Other Modules:
 sys.path.append('../redexo')
