@@ -14,7 +14,7 @@ import pickle
 import smplotlib
 from PyAstronomy import pyasl
 #Other Modules:
-sys.path.append('../../redexo')
+sys.path.append('../redexo')
 ##### Author: Alex Polanski #####
 
 from redexo import *
@@ -45,7 +45,7 @@ planet.transit_start = t_start
 skip_exp = []
 
 
-dataset = load_kpf_data('../../data/kpf_wasp76/',
+dataset = load_kpf_data('../data/kpf_wasp76/',
         star_name='WASP 76',
         skip_exposures=skip_exp,
         TAC=True,
@@ -60,7 +60,7 @@ id_info = 'kpf_3000K'
 
 ### LOAD TEMPLATE ###
 
-temp_dir = '../../templates/'
+temp_dir = '../templates/'
 
 d = pd.read_csv(temp_dir+'wasp76_Fe_template_1e-5_3000.csv')
 template_wl, template = ConvolveToR(d.wavelength.to_numpy()*1e4, d.flux.to_numpy(),100000)
