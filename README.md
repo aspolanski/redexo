@@ -3,3 +3,5 @@
 </p>
 
 # Redexo: High-resolution Cross-correlation Analysis for Exoplanets
+
+Please cite [Landman et al. 2021](https://ui.adsabs.harvard.edu/abs/2021A%26A...656A.119L/abstract) and Polanski 202X.
